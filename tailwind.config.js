@@ -36,11 +36,11 @@ export default {
       keyframes: {
         move: {
           "0%, 100%": {
-            transform: "translateX(-2%)",
+            transform: "translateY(-2%)",
             animationTimingFunction: "cubic-bezier(0.8, 0, 1, 1)",
           },
           "50%": {
-            transform: "translateX(0)",
+            transform: "translateY(0)",
             animationTimingFunction: "cubic-bezier(0, 0, 0.2, 1)",
           },
         },

@@ -1,8 +1,7 @@
-
-import Hero from '../components/hero section/Hero'
+import Hero from "../components/hero section/Hero";
 
 export default function About() {
   return (
-    <Hero/>
-  )
+    <Hero />
+  );
 }

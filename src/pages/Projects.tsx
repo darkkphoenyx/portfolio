@@ -1,7 +1,3 @@
 export default function Projects() {
-  return (
-    <div className="text-6xl text-red-700 font-bold text-center">
-      WELCOME TO SERVICES BUDDY
-    </div>
-  );
+  return <div>My projects are here</div>;
 }

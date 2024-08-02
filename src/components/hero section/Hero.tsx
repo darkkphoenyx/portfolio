@@ -1,5 +1,7 @@
 import Footer from "../footer/Footer";
-
+import AOS from "aos";
+import "aos/dist/aos.css"; 
+import { useEffect } from "react";
 const links = [
   {
     id: 1,
@@ -31,6 +33,11 @@ const links = [
   },
 ];
 export default function Hero() {
+  useEffect(() => {
+    AOS.init({
+      duration: 1000,
+    });
+  }, []);
   return (
     <>
       <div className="bg-[--color-bg] h-screen">
@@ -90,7 +97,7 @@ export default function Hero() {
               </div>
             </div>
             <div
-              className=" profile hover:animate-bounce"
+              className=" profile hover:animate-move"
               data-aos="flip-right"
             >
               <img
