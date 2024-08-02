@@ -28,7 +28,7 @@ export default function Navbar({ paRrf }: HeaderProps) {
           We're announcing the enrollment of this year, starting from July 10.
         </p>
       </div>
-      <div className="bg-[#1F2E13] text-[#F2FA9B] sticky top-0 shadow-2xl">
+      <div className="bg-[#1F2E13] text-[#F2FA9B] sticky top-0 shadow-2xl overflow-hidden z-50">
         <div className="container mx-auto flex col-span-12">
           <div className="logo col-span-2">
             <Logo></Logo>

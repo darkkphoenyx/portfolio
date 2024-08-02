@@ -10,12 +10,12 @@ export default {
         "7xl": "3.5rem",
         "8xl": "4rem",
       },
-       fontSize: {
-        '8xl': '6rem',  // 96px
-        '9xl': '8rem',  // 128px
-        '10xl': '10rem', // 160px
-        '11xl': '12rem', // 192px
-        '12xl': '14rem', // 224px
+      fontSize: {
+        "8xl": "6rem", // 96px
+        "9xl": "8rem", // 128px
+        "10xl": "10rem", // 160px
+        "11xl": "12rem", // 192px
+        "12xl": "14rem", // 224px
       },
       height: {
         108: "27rem", // 432px
@@ -25,6 +25,21 @@ export default {
         156: "39rem", // 624px
         168: "42rem", // 672px
         180: "45rem", // 720px
+      },
+      keyframes: {
+        bounce: {
+          "0%, 100%": {
+            transform: "translateY(-5%)",
+            animationTimingFunction: "cubic-bezier(0.8, 0, 1, 1)",
+          },
+          "50%": {
+            transform: "translateY(0)",
+            animationTimingFunction: "cubic-bezier(0, 0, 0.2, 1)",
+          },
+        },
+      },
+      animation: {
+        bounce: "bounce 1s ease-in-out infinite",
       },
     },
   },
