@@ -22,10 +22,9 @@ export default function Navbar({ paRrf }: HeaderProps) {
         <p className="text-xs pl-10 pt-3 text-white font-mono font-semibold">
           <Link to={"/register"}>
             <span className="bg-[#B1FF05] text-black font-thin p-1 px-2 rounded-3xl mr-3">
-              Join Now
+              Hire Me
             </span>
           </Link>
-          We're announcing the enrollment of this year, starting from July 10.
         </p>
       </div>
       <div className="bg-[#1F2E13] text-[#F2FA9B] sticky top-0 shadow-2xl overflow-hidden z-50">

@@ -71,8 +71,16 @@ export default function HomePage() {
                   />
                 </a>
               </div>
+              <div className="downloadCVBtn mt-10">
+                <a href="https://drive.usercontent.google.com/download?id=1PwKO1MOBPbMaGkvlqPse-fFzqU_HvQHY&export=download&authuser=0&confirm=t&uuid=e0c7c210-bbcd-4d52-ad3c-63b1f414aaf1&at=APZUnTVl9AiOQVaM9Vsm6AP4Q8DC:1722596331173">
+                  <button className="border px-5 py-3 rounded-2xl ">Download CV </button>
+                </a>
+              </div>
             </div>
-            <div className=" profile hover:animate-bounce" data-aos="flip-right">
+            <div
+              className=" profile hover:animate-bounce"
+              data-aos="flip-right"
+            >
               <img
                 className="object-fill rounded-full h-96 bg-[#F2FA9B]"
                 src="/assets/profile1.png"
