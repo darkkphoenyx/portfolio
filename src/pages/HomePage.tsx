@@ -163,6 +163,7 @@ export default function HomePage() {
                 key={letter.id}
                 data-aos="fade-right"
                 data-aos-delay={letter.delay}
+                data-aos-duration="300"
               >
                 <p className="font-secondary pr-1">{letter.letter}</p>
               </li>
@@ -174,6 +175,7 @@ export default function HomePage() {
                 key={letter.id}
                 data-aos="fade-right"
                 data-aos-delay={letter.delay}
+                data-aos-duration="800"
               >
                 <p className="font-tertiary">{letter.letter}</p>
               </li>

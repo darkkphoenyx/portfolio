@@ -52,7 +52,7 @@ export default function Hero() {
                 data-aos="fade-right"
                 data-aos-delay="100"
               >
-                Deepesh Sunuwar
+                Deepesh Sunuwar,
               </p>
               <p
                 className="mt-5 text-lg"
