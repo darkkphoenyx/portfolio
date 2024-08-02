@@ -1,13 +1,17 @@
 import { Link, useLocation } from "react-router-dom";
 import { RefObject, useEffect } from "react";
-import Logo from "../../logo/Logo";
+import Logo from "../logo/Logo";
 import "./Navbar.css";
+import { useLoading } from "../../layouts/LoadingContent"; // Import the useLoading hook
 
 interface HeaderProps {
-  paRrf: RefObject<HTMLDivElement>; // Adjust the type according to the actual element or component
+  paRrf: RefObject<HTMLDivElement>;
 }
-export default function Navbar({ paRrf }: HeaderProps) {
+
+const Navbar = ({ paRrf }: HeaderProps) => {
   const location = useLocation();
+  const { loading } = useLoading(); // Use the loading context
+
   useEffect(() => {
     paRrf.current?.scrollTo({
       top: 0,
@@ -15,7 +19,11 @@ export default function Navbar({ paRrf }: HeaderProps) {
     });
   }, [location.pathname, paRrf]);
 
-  const linkStyle = "mx-10 hover:text-[#F2FA9B]/60 ";
+  if (loading) {
+    return null; // Hide the Navbar if loading
+  }
+
+  const linkStyle = "mx-10 hover:text-[#F2FA9B]/60";
   return (
     <>
       <div className="h-10 bg-[#001E2B]">
@@ -31,7 +39,7 @@ export default function Navbar({ paRrf }: HeaderProps) {
       <div className="bg-[--color-bg] text-[--color-text] sticky top-0 shadow-2xl overflow-hidden z-50">
         <div className="container mx-auto flex col-span-12">
           <div className="logo col-span-2">
-            <Logo></Logo>
+            <Logo />
           </div>
           <div className="nav-link col-span-10 w-full my-auto">
             <ul className="flex items-center justify-end">
@@ -61,4 +69,6 @@ export default function Navbar({ paRrf }: HeaderProps) {
       </div>
     </>
   );
-}
+};
+
+export default Navbar;

@@ -186,7 +186,12 @@ export default function HomePage() {
           <ul className="flex">
             {job1.split("").map((letter, index) => (
               <li key={index}>
-                <p data-aos={index % 2 == 0 ? "fade-up" : "fade-down"}>
+                <p
+                  className=""
+                  data-aos="fade-up"
+                  data-aos-delay={index * 50}
+                  data-aos-duration="300"
+                >
                   {letter}
                 </p>
               </li>
@@ -195,7 +200,12 @@ export default function HomePage() {
           <ul className="flex">
             {job2.split("").map((letter, index) => (
               <li key={index}>
-                <p data-aos={index % 2 == 0 ? "fade-up" : "fade-down"}>
+                <p
+                  className=""
+                  data-aos="fade-up"
+                  data-aos-delay={index * 50}
+                  data-aos-duration="300"
+                >
                   {letter}
                 </p>
               </li>
