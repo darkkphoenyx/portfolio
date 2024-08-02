@@ -19,15 +19,16 @@ export default function Navbar({ paRrf }: HeaderProps) {
   return (
     <>
       <div className="h-10 bg-[#001E2B]">
-        <p className="text-xs pl-10 pt-3 text-white font-mono font-semibold">
-          <Link to={"/register"}>
+        <p className="text-xs pl-10 pt-3 text-white font-mono">
+          <a href="https://drive.usercontent.google.com/download?id=1PwKO1MOBPbMaGkvlqPse-fFzqU_HvQHY&export=download&authuser=0">
             <span className="bg-[#B1FF05] text-black font-thin p-1 px-2 rounded-3xl mr-3">
-              Hire Me
+              Download CV
             </span>
-          </Link>
+          </a>
+          Feel free to download My CV.
         </p>
       </div>
-      <div className="bg-[#1F2E13] text-[#F2FA9B] sticky top-0 shadow-2xl overflow-hidden z-50">
+      <div className="bg-[--color-bg] text-[--color-text] sticky top-0 shadow-2xl overflow-hidden z-50">
         <div className="container mx-auto flex col-span-12">
           <div className="logo col-span-2">
             <Logo></Logo>

@@ -3,6 +3,10 @@ export default {
   content: ["./index.html", "./src/**/*.{js,ts,jsx,tsx}"],
   theme: {
     extend: {
+      fontFamily: {
+        secondary: ["Water Brush"],
+        tertiary: ["Oswald"],
+      },
       borderRadius: {
         "4xl": "2rem",
         "5xl": "2.5rem",
@@ -16,6 +20,9 @@ export default {
         "10xl": "10rem", // 160px
         "11xl": "12rem", // 192px
         "12xl": "14rem", // 224px
+        "13xl": "16rem",
+        "14xl": "18rem",
+        "15xl": "20rem",
       },
       height: {
         108: "27rem", // 432px
@@ -27,19 +34,19 @@ export default {
         180: "45rem", // 720px
       },
       keyframes: {
-        bounce: {
+        move: {
           "0%, 100%": {
-            transform: "translateY(-5%)",
+            transform: "translateX(-2%)",
             animationTimingFunction: "cubic-bezier(0.8, 0, 1, 1)",
           },
           "50%": {
-            transform: "translateY(0)",
+            transform: "translateX(0)",
             animationTimingFunction: "cubic-bezier(0, 0, 0.2, 1)",
           },
         },
       },
       animation: {
-        bounce: "bounce 1s ease-in-out infinite",
+        move: "move 1s ease-in-out infinite",
       },
     },
   },
