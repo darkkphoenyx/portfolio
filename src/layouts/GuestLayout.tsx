@@ -15,9 +15,7 @@ export default function GuestLayout({ children }: GuestLayoutProps) {
       ref={parentRef}
     >
       <Navbar paRrf={parentRef} />
-      <div className="bg-white h-screen w-screen">
-        <div className={`mx-auto transition-all duration-700`}>{children}</div>
-      </div>
+      <div className={`bg-[--color-bg] h-screen transition-all duration-700`}>{children}</div>
       <Footer></Footer>
     </div>
   );
