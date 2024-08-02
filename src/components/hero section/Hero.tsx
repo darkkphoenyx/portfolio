@@ -41,7 +41,7 @@ export default function Hero() {
   return (
     <>
       <div className="bg-[--color-bg] h-screen">
-        <div className="container mx-auto pt-10">
+        <div className="container mx-auto pt-20">
           <div className="text-[--color-text] mx-auto w-full flex items-center justify-between gap-10">
             <div className=" w-4/6">
               <p className="text-4xl" data-aos="fade-right">
