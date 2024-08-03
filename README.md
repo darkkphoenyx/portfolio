@@ -1,30 +1,23 @@
-# React + TypeScript + Vite
+# Darkkphoenyx Portfolio
+Hello there👋, this is [Darkkphoenyx ](https://darkkphoenyx-portfolio.vercel.app/)speaking. I am a undergraduate student of BSc. CSIT (4th semester) from Nepal, currently pursuing at [Texas International.](https://texasintl.edu.np/) I am skilled in Node.js, Javascript, React, Tailwind, C and C++. And I love building efffiecient, scalable, and maintainable softwares.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Portfolio previews
 
-Currently, two official plugins are available:
+<p align="center">
+<img src="./git imgaes/PreLoader.png" alt="Preloader png"/>
+<p align="center">
+<img src="./git imgaes/HomePage.png" alt="Homepage png"/>
+</p>
+<p align="center">
+<img src="./git imgaes/AboutPage.png" alt="Aboutpage png"/>
+</p>
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
 
-## Expanding the ESLint configuration
+## Author
+ [@darkkphoenyx](https://github.com/darkkphoenyx)
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
-
-- Configure the top-level `parserOptions` property like this:
-
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json', './tsconfig.app.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
-```
-
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+## Contact Me
+Porfolio: [@darkkphoenyx](https://darkkphoenyx-portfolio.vercel.app/)  
+LinkedIn: [@deepeshsunuwar](https://www.linkedin.com/in/deepesh-sunuwar-6237351aa/)  
+Facebook: [@deepeshsunuwar](https://www.facebook.com/deepesh.singhsunuwar)  
+E-mail: deepgeneral33@gmail.com
