@@ -90,15 +90,15 @@ export default function Hero() {
                 data-aos-delay="400"
               >
                 <a href="https://drive.usercontent.google.com/download?id=1PwKO1MOBPbMaGkvlqPse-fFzqU_HvQHY&export=download&authuser=0">
-                  <button className="border-2 border-[--color-secondary] hover:bg-[--color-secon] text-[--color-text-secondary] hover:text-[--color-text] text-xl font-semibold px-5 py-3 rounded-2xl bg-[--color-secondary]">
+                  <button className="animate-pulse hover:animate-none  border-2 border-[--color-secondary] hover:bg-[--color-secon] text-[--color-text-secondary] hover:text-[--color-text] text-xl font-semibold px-5 py-3 rounded-2xl bg-[--color-secondary]">
                     Download CV{" "}
                   </button>
                 </a>
               </div>
             </div>
             <div
-              className=" profile hover:animate-move"
-              data-aos="flip-right"
+              data-aos="zoom-in"
+              className=" profile hover:animate-none animate-move delay-200"
             >
               <img
                 className="object-fill rounded-full h-96 bg-[#F2FA9B]"
